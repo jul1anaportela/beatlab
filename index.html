@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beatlab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./assets/logos/favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="main-header">
+       <div class="container">
+        <img src="./assets/logos/logo-header-waves.svg" class="me-1" id="logo-waves" alt="logo">
+        <h1 class="navbar-brand m-0">beatlab</h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu">
+            <ul class="nav nav-pills d-block d-lg-flex"> <!--d-block d-md-flex-->
+                <li class="nav-item"><a class="nav-link fw-bold" href="#about-us">about us</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#agenda">agenda</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#education">education</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" href="#contact-us">contact us</a></li>
+            </ul>
+        </nav>
+       </div> 
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#main-header" data-bs-smooth-scroll="true">
+        <section id="about-us">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./assets/slide/slide1.png" class="w-100 image-slide" alt="">
+                        <div class="carousel-caption">
+                            <h2 class="h1 title-slide">Tune your creativity</h2>
+                            <h4 class="subtitle-slide">beatlab, where music reinvents</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/slide/slide2.png" class="w-100 image-slide" alt="">
+                        <div class="carousel-caption">
+                            <h2 class="h1 title-slide">Tune your creativity</h2>
+                            <h4 class="subtitle-slide">beatlab, where music reinvents</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./assets/slide/slide3.png" class="w-100 image-slide" alt="">
+                        <div class="carousel-caption">
+                            <h2 class="h1 title-slide">Tune your creativity</h2>
+                            <h4 class="subtitle-slide">beatlab, where music reinvents</h4>
+                        </div>
+                    </div>
+
+                    <!--BUTTONS-->
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                    <!--INDICATORS-->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5" id="image-about-us">
+                            <img src="./assets/about-us/about-us-img.png" alt="">
+                        </div>
+                        <div class="col-lg-4 mt-3 mt-md-0 pb-5">
+                            <h2 class="section-title fw-bold">about us</h2>
+                            <p>
+                                In the beating heart of creativity, where every beat tells a story, we present <strong>beatlab</strong>
+                                 - more than a studio, an unparalleled musical experience.
+                            </p>
+                            <h5 class="section-title fw-bold">What we do?</h5>
+                            <p>
+                                Here, music isn’t just heard; it’s felt, created and reinvented. From the novice
+                                 to the experienced producer, beatlab is a space where notes intertwine with 
+                                 innovation, and inspiration becomes melody
+                            </p>
+                            <h5 class="section-title fw-bold">Our Philosophy: Create Music in Good Company</h5>
+                            <p>
+                                At <strong>beatlab</strong>, we don’t just believe in reting spaces. We believe in building vibrant 
+                                musical communities, where musicians, producers, composers and enthusiasts come 
+                                together to celebrate sound diversity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h2 class="section-title fw-bold pt-5 text-center">why choose us?</h2>
+                        <div class="d-md-flex pt-4 div-why-choose-us">
+                            <div class="col-md-4">
+                                <div class="card-why-choose-us">
+                                    <img src="./assets/about-us/espacos-inspiradores.png" alt="">
+                                    <h5 class="section-title fw-bold mt-2 ms-5 ps-3">Inspiring Spaces</h5>
+                                    <p>From professional recording studios to collaborative creation areas, 
+                                        we offer the perfect stage for your musical ideas.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-why-choose-us">
+                                    <img src="./assets/about-us/comunidade-acustica.png" alt="">
+                                    <h5 class="section-title fw-bold mt-2 ms-5 ps-1">Musical Community</h5>
+                                    <p>
+                                        Join a network of creative musical minds. Collaborate, be inspired 
+                                        and grow together with other music lovers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-why-choose-us">
+                                    <img src="./assets/about-us/educacao-musical.png" alt="">
+                                    <h5 class="section-title fw-bold mt-2 ms-5 ps-2">Musical Education</h5>
+                                    <p>
+                                        Not only do we provide a place to create, but we also offer courses, 
+                                        workshops and masterclasses to improve your musical skills.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="agenda">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fw-bold text-center pb-5">
+                        <span class="material-symbols-outlined icon-white">
+                            calendar_month
+                        </span>
+                        agenda
+                    </h2>
+                    <aside class="col-lg-2">
+                        <nav class="nav nav-pills flex-column nav-agenda">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-recurring-events" class="nav-link fw-bold text-start active" >recurring events</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-february" class="nav-link fw-bold text-start" >february</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-april" class="nav-link fw-bold text-start" >april</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-june" class="nav-link fw-bold text-start" >june</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-september" class="nav-link fw-bold text-start" >september</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#btn-november" class="nav-link fw-bold text-start" >november</button>
+                        </nav>
+                    </aside>
+                    <div class="col-lg-10 col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="btn-recurring-events">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 p-0 card-agenda">
+                                        <img src="./assets/agenda/recurring-events/jam-session.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Monthly Jam Session: “Community Sounds”</h5>
+                                        <p class="ms-2 me-2 card-subtitle-agenda fw-bold">Last Friday of every month</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Join our musical community for an evening of improvisation, 
+                                            collaboration and celebration of sound diversity.</p>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 p-0 card-agenda">
+                                        <img src="./assets/agenda/recurring-events/live-sessions.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Live Sessions: Online Stage</h5>
+                                        <p class="ms-2 me-2 card-subtitle-agenda fw-bold">Every Thursday of every month</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Broadcast your musical creations live to the world! A unique opportunity ti share your talent and connect with other artists.</p>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 p-0 card-agenda">
+                                        <img src="./assets/agenda/recurring-events/happy-hour.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Happy Hour Musical: Sounds and Tastes</h5>
+                                        <p class="ms-2 me-2 card-subtitle-agenda fw-bold">First Saturday of every month</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Enjoy good music, good company and good food. A relaxed evening to celebrate your passion for music.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="btn-february">
+                                <div class="row">
+                                    <div class="col-md-3 p-0 card-agenda">
+                                        <img src="./assets/agenda/february/music-workshop.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Music Workshop: From Beginner to Pro</h5>
+                                        <p class="ms-2 card-subtitle-agenda fw-bold">February 10th to 15th</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Learn the fundamentals of music production, from the first steps to advanced techniques. A week dedicated to artistic growth!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="btn-april">
+                                <div class="row">
+                                    <div class="col-md-3 p-0 card-agenda">
+                                        <img src="./assets/agenda/april/composition-course.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Intensive Composition Course: Melodies that mark</h5>
+                                        <p class="ms-2 card-subtitle-agenda fw-bold">April 5th to 10th</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Delve deeper into the art of musical composition. From theory to modern techniques, this course provides a total immersion in the world of engaging melodies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="btn-june">
+                                <div class="row">
+                                    <div class="col-md-3 p-0 card-agenda">
+                                        <img src="./assets/agenda/june/talents-festival.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">New Talents Festival</h5>
+                                        <p class="ms-2 card-subtitle-agenda fw-bold">June 20th to 25th</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Present your talent on the BeatLab stage! A week dedicated to highlighting new artistis and their promising compositions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="btn-september">
+                                <div class="row">
+                                    <div class="col-md-3 p-0 card-agenda">
+                                        <img src="./assets/agenda/september/masterclass.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Masterclass with well-known producers</h5>
+                                        <p class="ms-2 card-subtitle-agenda fw-bold">September 15th</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Connect with top producers in the music industry. Discover the secrets behind hits and hone your production skills.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="btn-november">
+                                <div class="row">
+                                    <div class="col-md-3 p-0 card-agenda">
+                                        <img src="./assets/agenda/november/remix-competition.png" alt="">
+                                        <h5 class="h6 ms-2 me-2 card-title-agenda">Remix competition: Transform and Shine</h5>
+                                        <p class="ms-2 me-2 card-subtitle-agenda fw-bold">November 10th to December 5th</p>
+                                        <p class="section-title card-text-agenda ms-2 me-2 fw-bold">Show off your remixing skills! Recreate a selected track and compete for amazing prizes. Creativity is the key!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" id="education">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fw-bold text-center">
+                        <i class="bi bi-mortarboard icon-black h3 g-0"></i>
+                        education
+                        <div class="row pt-5">
+                            <div class="col-md-4">
+                                <img src="./assets/education/advanced-harmony-musical-theory.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/education/professional-music-production.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/education/orchestrated-composition.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/education/advanced-mixing-mastering-techniques.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/education/music-career-launch-strategies.png" alt="">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/education/live-performance.png" alt="">
+                            </div>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title fw-bold text-center pb-5">
+                        <span class="material-symbols-outlined icon-white">
+                            contacts_product
+                        </span>
+                        contact us
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold icon-white">name</label>
+                                <input type="text" name="name" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold icon-white">email</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold icon-white">phone</label>
+                                <input type="tel" name="phone" id="phone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold icon-white">message</label>
+                                <textarea name="message" id="message" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mb-5 ms-5">
+                        <div class="row">
+                            <h5 class="section-title fw-bold">Social Networks</h5>
+                            <ul class="social-link">
+                                <li class="fs-5"><a href="#"><i class="bi bi-instagram icon-white me-2"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-spotify icon-white me-2"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-tiktok icon-white"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-twitch icon-white ms-2 "></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-youtube icon-white ms-2"></i></a></li>
+                                <li class="fs-5"><a href="#"><i class="bi bi-linkedin icon-white ms-2"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h5 class="section-title fw-bold">Address</h5>
+                            <p class="icon-white">
+                                9402 N Nebraska Ave - Florida -  33612
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <footer>
+        <img id="logo-rodape" src="./assets/logos/logo-rodape.svg" alt="">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
