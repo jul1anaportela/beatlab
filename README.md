@@ -25,6 +25,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 - ChatGPT
+- Unsplash
+- [unDraw](https://undraw.co/illustrations)
 
 ## 💻 Projeto
 
@@ -46,7 +48,7 @@ No BeatLab, as paredes ecoam com as histórias que as músicas contam. Cada bati
 
 Bem-Vindo à Casa da Música, Bem-Vindo ao BeatLab - Onde Seu Som Ganha Vida! 🚀🎶
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://beatlab-tau.vercel.app/)
 
 ## 🔖 Layout
 
